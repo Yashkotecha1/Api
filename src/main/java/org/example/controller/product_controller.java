@@ -20,6 +20,7 @@ public class product_controller
     {
         productRepo.save(productModel);
         System.out.println(productModel.toString());
+
     }
 
     @GetMapping("/get")
